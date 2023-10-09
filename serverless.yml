@@ -1,0 +1,16 @@
+service: helicone-proxy-server
+frameworkVersion: '3'
+provider:
+  name: aws
+  runtime: python3.11
+  stage: dev
+  region: ap-south-1
+  
+functions:
+  proxyserver:
+    handler: src/handler.lambda_handler
+    name: helicone-proxy
+    events:
+      - http:
+          path: /request/{remaining_path+}
+          method: post # You can change this to other HTTP methods if needed
