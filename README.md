@@ -25,7 +25,7 @@ Step-by-step user guide
 
 1. Run the below command to clone this repo:
 ```
-git clone https://github.com/madgical-ai/deployment-error.git
+git clone https://github.com/abhisheksrivastav3604/helicone-proxy-server.git
 ```
 
 2. Run the below command to install the dependency: 
