@@ -12,6 +12,12 @@ This repository demonstrates how to deploy helicone proxy server on AWS Lambda u
   - SERVERLESS should be installed on your local machine
     ```
     brew install serverless   #For MacOS
+
+    #For Ubuntu
+    sudo apt update
+    sudo apt install nodejs npm
+    sudo npm install -g serverless
+
     ```
     ```
     serverless --version
